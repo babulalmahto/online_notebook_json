@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users fetched data</title>
+</head>
+
+<body>
+    <h1>Hi! This is public folder</h1>
+
+    <!-- <div id="getData"></div> -->
+    <pre id="getData"></pre>
+
+
+    <script>
+        let arr = []
+        getUser()
+
+        async function getUser() {
+            var data = await fetch('http://127.0.0.1:5000/user')
+            var body = await data.json();
+            console.log(body.data);
+            arr = body.data
+
+            let a = arr.map((data) => {
+                return (
+                    `<h2>First name : ${data.firstName}</h2>`
+                )
+            }).join("")
+
+            document.getElementById('getData').innerHTML = a;
+        }
+
+    // console.log(getUser);
+    </script>
+</body>
+
+</html>

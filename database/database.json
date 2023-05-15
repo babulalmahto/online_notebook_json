@@ -1,1 +1,80 @@
-[{"username":"abc@123","email":"abc123@gmail.com","name":"abc"},{"username":"pqr@123","email":"pqr123@gmail.com","name":"pqr"}]
+[
+    {
+        "firstName": "abc",
+        "lastName": "efg",
+        "dateOfBirth": "04-04-2000",
+        "phoneNumber": "+91-0000000000",
+        "emailId": "abc123@gmail.com",
+        "password": "abc@123",
+        "gender": "male",
+        "occupation": "student",
+        "country": "india",
+        "intrestedIn": "Developer",
+        "language": "javascript"
+    },
+    {
+        "firstName": "pqr",
+        "lastName": "stu",
+        "dateOfBirth": "04-04-2000",
+        "phoneNumber": "+91-2222222222",
+        "emailId": "pqr123@gmail.com",
+        "password": "pqr@123",
+        "gender": "male",
+        "occupation": "CA",
+        "country": "india",
+        "intrestedIn": "RBI",
+        "language": "Hindi & English"
+    },
+    {
+        "firstName": "xyz",
+        "lastName": "yyy",
+        "dateOfBirth": "04-04-2001",
+        "phoneNumber": "+91-4444444444",
+        "emailId": "xyz123@gmail.com",
+        "password": "xyz@123",
+        "gender": "female",
+        "occupation": "CA",
+        "country": "sri lanka",
+        "intrestedIn": "software",
+        "language": "English"
+    },
+    {
+        "firstName": "zzzz",
+        "lastName": "uuuu",
+        "dateOfBirth": "04-04-1999",
+        "phoneNumber": "+91-9999999999",
+        "emailId": "zzzz123@gmail.com",
+        "password": "zzzz@123",
+        "gender": "male",
+        "occupation": "SE",
+        "country": "india",
+        "intrestedIn": "Developer",
+        "language": "Hindi & English"
+    },
+    {
+        "firstName": "mmmm",
+        "lastName": "nnnn",
+        "dateOfBirth": "04-04-1998",
+        "phoneNumber": "+91-9999999999",
+        "emailId": "mmmm123@gmail.com",
+        "password": "mmmm@123",
+        "gender": "male",
+        "occupation": "worker",
+        "country": "india",
+        "intrestedIn": "Developer",
+        "language": "Hindi & English"
+    },
+    {
+        "firstName": "mmmmaa",
+        "lastName": "nnnnaa",
+        "dateOfBirth": "04-04-1998",
+        "phoneNumber": "+91-9999999999",
+        "emailId": "mmmmaa123@gmail.com",
+        "password": "mmmmaa@123",
+        "gender": "male",
+        "occupation": "worker",
+        "country": "india",
+        "intrestedIn": "Developer",
+        "language": "Hindi & English"
+    }
+]
